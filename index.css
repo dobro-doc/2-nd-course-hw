@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+.top {
+    height: 1024px;
+    background-image: url(Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-header {
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0px;
+text-align: left;
+width: 788.77783203125px;
+height: 125.0071029663086px;
+padding-top: 217px;
+padding-left: 120px;
+}
+
+.top-text {
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+width: 580px;
+height: 64px;
+padding-top: 230px;
+padding-left: 120px;
+}
+
+.button {
+ width: 234px;
+ height: 48px;
+ border-radius: 30px;
+ margin-left: 120px;
+ margin-top: 84px;
+ background-color: brown;
+ line-height: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+height: 556px;
+background-image: url(Rectangle\ 5.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-left: 120px;
+padding-right: 120px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.game {
+width: 379px;
+height: 300px;
+border-radius: 16px;
+background-image: url(Rectangle\ 5.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.game1 {
+ background-image: url(Group\ 1.jpg); 
+}
+
+.game2 {
+ background-image: url(Group\ 2.jpg);
+}
+
+.game3 {
+ background-image: url(Group\ 3.jpg);
+}
