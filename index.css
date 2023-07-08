@@ -10,7 +10,7 @@ body {
 
 .top {
     height: 1024px;
-    background-image: url(Rectangle\ 1.jpg);
+    background-image: url(img/rectangle\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,6 +26,7 @@ width: 788.77783203125px;
 height: 125.0071029663086px;
 padding-top: 217px;
 padding-left: 120px;
+color: white;
 }
 
 .top-text {
@@ -38,6 +39,7 @@ width: 580px;
 height: 64px;
 padding-top: 230px;
 padding-left: 120px;
+color: white;
 }
 
 .button {
@@ -48,6 +50,9 @@ padding-left: 120px;
  margin-top: 84px;
  background-color: brown;
  line-height: none;
+ color: white;
+ font-size: 18px;
+ border: none;
 }
 
 .button:hover {
@@ -56,7 +61,7 @@ padding-left: 120px;
 
 .footer {
 height: 556px;
-background-image: url(Rectangle\ 5.png);
+background-image: url(img/rectangle\ 5.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -71,20 +76,7 @@ justify-content: space-between;
 width: 379px;
 height: 300px;
 border-radius: 16px;
-background-image: url(Rectangle\ 5.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-}
-
-.game1 {
- background-image: url(Group\ 1.jpg); 
-}
-
-.game2 {
- background-image: url(Group\ 2.jpg);
-}
-
-.game3 {
- background-image: url(Group\ 3.jpg);
 }
