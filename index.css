@@ -35,11 +35,15 @@ font-weight: 300;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: left;
-width: 580px;
+width: 600px;
 height: 64px;
 padding-top: 230px;
 padding-left: 120px;
 color: white;
+}
+
+.bold {
+font-weight: 700;
 }
 
 .button {
@@ -53,6 +57,7 @@ color: white;
  color: white;
  font-size: 18px;
  border: none;
+ font-family: inherit;
 }
 
 .button:hover {
