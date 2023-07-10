@@ -58,6 +58,7 @@ font-weight: 700;
  font-size: 18px;
  border: none;
  font-family: inherit;
+ transition: 0.3s;
 }
 
 .button:hover {
@@ -84,4 +85,33 @@ border-radius: 16px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.game:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.05);
+}
+
+.game1 {
+background-image: url(img/Rectangle\ 6.jpg);
+}
+
+.game2 {
+background-image: url(img/Rectangle\ 7.jpg);
+}
+
+.game3 {
+background-image: url(img/Rectangle\ 8.jpg);
+}
+
+.game-text {
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;    
+color: white;
+margin-left: 32px;
+margin-top: 240px;
 }
