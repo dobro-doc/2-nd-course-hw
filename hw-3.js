@@ -22,6 +22,14 @@ e = 7;
 
 alert(d > 100 || e > 100);
 
+let a = '2';
+let b = '3';
+
+a = Number(a);
+b = Number(b);
+
+alert(a + b); 
+
 let monthNumber = prompt('введите месяц');
 switch (monthNumber) {
     case '1':
