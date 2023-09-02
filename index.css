@@ -6,14 +6,15 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-  }
-
-.top {
-    height: 1024px;
     background-image: url(img/rectangle\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 .top-header {
@@ -25,7 +26,6 @@ text-align: left;
 width: 788.77783203125px;
 height: 125.0071029663086px;
 padding-top: 217px;
-padding-left: 120px;
 color: white;
 }
 
@@ -38,7 +38,7 @@ text-align: left;
 width: 600px;
 height: 64px;
 padding-top: 230px;
-padding-left: 120px;
+padding-bottom:  84px;
 color: white;
 }
 
@@ -50,8 +50,6 @@ font-weight: 700;
  width: 234px;
  height: 48px;
  border-radius: 30px;
- margin-left: 120px;
- margin-top: 84px;
  background-color: brown;
  line-height: none;
  color: white;
@@ -65,17 +63,16 @@ font-weight: 700;
     transform: scale(1.05);
 }
 
-.footer {
-height: 556px;
+.menu {
 background-image: url(img/rectangle\ 5.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-padding-left: 120px;
-padding-right: 120px;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
+margin-top: 240px;
+gap: 24px;
 }
 
 .game {
@@ -115,3 +112,41 @@ color: white;
 margin-left: 32px;
 margin-top: 240px;
 }
+
+.seasons {
+display: flex;  
+justify-content: space-around;
+align-items: center;
+gap: 32px;
+margin-top: 240px;
+flex-wrap: wrap;
+}
+
+.seasons-go {
+Width: 584px;
+Height: 235.6px;
+Gap: 32px;
+display: grid;
+align-content: space-between;
+}
+
+.heading {
+font-size: 48px;
+font-weight: 700;
+line-height: 59px;
+color: white;
+}
+
+.text {
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+width: 600px;
+height: 64px;
+color: white;
+}
+
+
+
