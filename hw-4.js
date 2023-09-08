@@ -25,17 +25,15 @@ for (let key in obj) {
     console.log(`${key} - зарплата ${obj[key]} долларов`);  
     }
 
-
-for(let result <= 1000; result > 50;){
-    alert(result / 2);
-    if (result < 50) {
-        break;
+    let count = 0;
+    let n = 1000;
+    while (n>50) {
+    n /= 2;
+    count++;
     }
-}
+    console.log(count);
 
 
-for (let friday = 1; friday <= 31; friday++){
-    if (friday % 7 == 0){
+for (let friday = 1; friday <= 31; friday+=7){
         console.log(`Сегодня пятница, ${friday} -е число. Необходимо подготовить отчет`);
-    }
 }
