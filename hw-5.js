@@ -46,3 +46,23 @@ function numSquare() {
         return result;
     }
   }
+
+  function getCircleArea() {
+    return this.radius**2 * 3.14;
+  }
+  function getCirclePerimeter() {
+    return this.radius * 2 * 3.14;
+  }
+  
+  const circle1 = {
+    radius: 5,
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+  };
+  
+  const circle2 = {
+    radius: 23,
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+  };
+
