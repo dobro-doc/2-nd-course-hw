@@ -24,7 +24,7 @@ function askAge() {
         alert('Вы ввели неправильное значение!');
     } else if (age > 0 && age < 13) {
       alert('Привет, друг!');
-    } else() {
+    } else {
       alert('Добро пожаловать!');
     }
   }
@@ -41,7 +41,7 @@ function numSquare() {
     let num = Number(prompt("Введите число"));
     if(isNaN(num)) {
         alert('Переданный параметр не является числом');
-    } else() {
+    } else {
         let result = num**2;
         return result;
     }
@@ -76,7 +76,7 @@ function numSquare() {
       return 'Лето';
     } else if(month = 9 || 10 || 11) {
       return 'Осень';
-    } else() {
+    } else {
       return 'Значение введено некорректно';
     }
   }
