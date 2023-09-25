@@ -1,9 +1,5 @@
-function compare(a, b) {
-    if (a >= b) {
-        return b;
-    } else {
-        return a;
-    }
+const compare = (a, b) => {
+    return (a >= b) ? b : a;
 }
 
 function checkEvenNumber(a) {
@@ -22,44 +18,31 @@ function numberSquare(a) {
     return a**2;
 }
 
-"use strict";
-let age = prompt('Сколько Вам лет?');
-let printMessage;
-if (age < 0) {
-    printMessage = function () {
+function askAge() {
+    let age = Number(prompt("Сколько вам лет?"));
+    if(age < 0) {
         alert('Вы ввели неправильное значение!');
+    } else if (age > 0 && age < 13) {
+      alert('Привет, друг!');
+    } else() {
+      alert('Добро пожаловать!');
     }
-if (age > 0 && age < 13) {
-    printMessage = function () {
-        alert('Привет, друг!');
-    }
-} else {
-    printMessage = function () {
-        alert('Добро пожаловать!');
-    }
-}
-
-} 
+  }
 
 function mult(a, b) {
     if (isNaN(a) || isNaN(b)) {
         return 'Одно или оба значения не являются числом';
     } else {
         return a * b;
-    }
-    
+    } 
 }
 
-"use strict";
-let num = prompt('Введите число');
-let numSquare;
-if (isNaN(num)) {
-    numSquare = function () {
-        alert(`Переданный параметр не является числом`);
-    }
-} else {
-    numSquare = function () {
+function numSquare() {
+    let num = Number(prompt("Введите число"));
+    if(isNaN(num)) {
+        alert('Переданный параметр не является числом');
+    } else() {
         let result = num**2;
         return result;
     }
-}
+  }
