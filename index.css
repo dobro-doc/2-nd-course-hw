@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(img/rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top-header {
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0px;
+text-align: left;
+width: 788.77783203125px;
+height: 125.0071029663086px;
+padding-top: 217px;
+color: white;
+}
+
+.top-text {
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+width: 600px;
+height: 64px;
+padding-top: 230px;
+padding-bottom:  84px;
+color: white;
+}
+
+.bold {
+font-weight: 700;
+}
+
+.button {
+ width: 234px;
+ height: 48px;
+ border-radius: 30px;
+ background-color: brown;
+ line-height: none;
+ color: white;
+ font-size: 18px;
+ border: none;
+ font-family: inherit;
+ transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.menu {
+background-image: url(img/rectangle\ 5.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 240px;
+gap: 24px;
+}
+
+.game {
+width: 379px;
+height: 300px;
+border-radius: 16px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.game:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.05);
+}
+
+.game1 {
+background-image: url(img/Rectangle\ 6.jpg);
+}
+
+.game2 {
+background-image: url(img/Rectangle\ 7.jpg);
+}
+
+.game3 {
+background-image: url(img/Rectangle\ 8.jpg);
+}
+
+.game-text {
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;    
+color: white;
+margin-left: 32px;
+margin-top: 240px;
+}
+
+.seasons {
+display: flex;  
+justify-content: space-around;
+align-items: center;
+gap: 32px;
+margin-top: 240px;
+flex-wrap: wrap;
+}
+
+.seasons-go {
+Width: 584px;
+Height: 235.6px;
+Gap: 32px;
+display: grid;
+align-content: space-between;
+}
+
+.heading {
+font-size: 48px;
+font-weight: 700;
+line-height: 59px;
+color: white;
+}
+
+.text {
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+width: 600px;
+height: 64px;
+color: white;
+}
+
+
+

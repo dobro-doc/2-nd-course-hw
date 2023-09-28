@@ -1,0 +1,55 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .top-header {
+        font-size: 32px;
+        width: auto;
+        text-align: center;
+    }
+
+    .top-text {
+        font-size: 18px;
+        padding-top: 170px;
+        padding-bottom: 120px;
+        width: auto;
+        text-align: center;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .game {
+        width: 343px;
+        height: 300px;
+    }
+
+    .seasons-go {
+        display: grid;
+        justify-items: center;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .seasons-img {
+        width: 344px;
+        height: 236px;
+        margin-top: 64px;
+    }
