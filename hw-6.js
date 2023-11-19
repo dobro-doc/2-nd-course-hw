@@ -72,7 +72,7 @@ function task11(array) {
 
       el % 1 === 0;
 
-      return el * el
+      return el * el;
     });
 
     console.log(tax);
@@ -85,23 +85,24 @@ function getLengthWords(array) {
 
     const word = array.map(function(el) {
 
-      word = word.length
-
-      return word
+      word = word.length;
 
     });
+    
+return word;
+
+}
 
 
-    function filterPositive(array) {
+function filterPositive(array) {
 
-        const tax = array.filter(function(el) {
+    const tax = array.filter(function(el) {
     
-          el % 1 === 0;
+        el % 1 === 0;
     
-          el < 0;
-    
-          return tax;
-    
-        });
+        el < 0;
+    });
 
-    }
+return tax;
+    
+}
