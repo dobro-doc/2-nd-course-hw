@@ -60,21 +60,48 @@ for (let i = 0; i < c.length - 1; i++) {
 }
 
 
-const d = [3,5,8,2,9,10];
-const even = d.filter(el => el % 1 === 0);
-const tax = even.map(el => el * el);
-console.log(tax);
+const array = [3, 5, 8, 2, 9, 10];
+function task11(array) { (el % 1 === 0)
+	let result = [el * el];
+	return result;
+}
 
 
-let string = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-console.log(words.map(word => word.length));
+function task11(array) {
+    const tax = array.map(function(el) {
+
+      el % 1 === 0;
+
+      return el * el
+    });
+
+    console.log(tax);
+
+	return tax;
+}
 
 
-const h = [-1, 0, 5, -10, 56];
-for ( i = 0; i < h.length; i++)
-{
-   if (h[i] <0 )
-   {
-     console.log(h[i]);
-  }
- };
+function getLengthWords(array) {
+
+    const word = array.map(function(el) {
+
+      word = word.length
+
+      return word
+
+    });
+
+
+    function filterPositive(array) {
+
+        const tax = array.filter(function(el) {
+    
+          el % 1 === 0;
+    
+          el < 0;
+    
+          return tax;
+    
+        });
+
+    }
