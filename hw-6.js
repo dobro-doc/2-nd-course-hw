@@ -86,7 +86,7 @@ function getLengthWords(array) {
     const word = array.map(function(el) {
 
       word = word.length;
-
+      return word;
     });
     
 return word;
@@ -100,7 +100,7 @@ function filterPositive(array) {
     
         el % 1 === 0;
     
-        el < 0;
+        return el < 0;
     });
 
 return tax;
