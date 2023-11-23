@@ -70,8 +70,6 @@ function task11(array) { (el % 1 === 0)
 function task11(array) {
     const tax = array.map(function(el) {
 
-      el % 1 === 0;
-
       return el * el;
     });
 
@@ -79,30 +77,28 @@ function task11(array) {
 
 	return tax;
 }
+console.log(task11([1, 2, 3, 4, 5]));
 
 
 function getLengthWords(array) {
 
     const word = array.map(function(el) {
 
-      word = word.length;
-      return word;
+      return el.length;
     });
     
 return word;
-
 }
+console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
 
 
 function filterPositive(array) {
 
     const tax = array.filter(function(el) {
     
-        el % 1 === 0;
-    
         return el < 0;
     });
 
 return tax;
-    
 }
+console.log(filterPositive([-1, 0, 5, -10, 56]));
